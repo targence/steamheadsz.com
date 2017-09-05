@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo creating / cpdating certificates at $(date --utc)
-certbot certonly -t -n --agree-tos --renew-by-default --email "james.xps@outlook.com" --webroot -w /var/www/steamheadsz.com/ -d "steamheadsz.com" -d "www.steamheadsz.com"
+certbot certonly -t -n --agree-tos --renew-by-default --email "james.xps@outlook.com" --webroot -w /var/www/steamheadsz.com/ -d "steamheadsz.com"
 echo "certificates updated"
 
 echo "activating nginx config"    
