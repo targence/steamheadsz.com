@@ -1,7 +1,7 @@
 ```
 ## How to deploy this web site
 
-git clone https://github.com/targence/steamheadsz.com git
+git clone https://github.com/targence/steamheadsz.com
 cd git
 docker build --tag=nginx-le .
 
